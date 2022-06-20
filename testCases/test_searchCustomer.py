@@ -1,4 +1,5 @@
 import time
+import pytest
 
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
@@ -13,6 +14,7 @@ class TestSearchCustomer004:
     password = ReadConfig.getPassword()
     logger = LogGen.loggen()
 
+    @pytest.mark.regression
     def test_searchCustomerByEmail(self, setup):
         self.logger.info("*************** TestSearchCustomer004 ***************")
         self.driver = setup

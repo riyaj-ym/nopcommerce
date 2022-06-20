@@ -10,6 +10,7 @@ class TestLogin001:
     baseurl = ReadConfig.getApplicationUrl()
     logger = LogGen.loggen()
 
+    @pytest.mark.regression
     def test_homePageTitle(self, setup):
         self.logger.info("*************** TestLogin001 ***************")
         self.logger.info("*************** Verifying HomePage Title ***************")
@@ -34,6 +35,8 @@ class TestLogin001:
             self.driver.close()
             assert False
 
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_loginPageTitle(self, setup):
         self.logger.info("*************** TestLogin001 ***************")
         self.logger.info("*************** Verifying LoginPage Title ***************")
