@@ -34,7 +34,7 @@ def pytest_configure(config):
     config._metadata["Tester"] = "RYM"
 
 
-# it is hook for delete/modify enviroment info to HTML Report
+# it is hook for delete/modify Environment info to HTML Report
 @pytest.mark.optonalhook
 def pytest_metadata(metadata):
     metadata.pop("JAVA_HOME", None)
