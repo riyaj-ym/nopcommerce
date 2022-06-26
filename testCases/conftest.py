@@ -31,7 +31,7 @@ def browser(request):  # This will return the Browser value to set up method
 def pytest_configure(config):
     config._metadata["Project Name"] = "nop Commerce"
     config._metadata["Module Name"] = "customer"
-    config._metadata["Tester"] = "RYM"
+    config._metadata["Tester"] = "Akash"
 
 
 # it is hook for delete/modify Environment info to HTML Report
