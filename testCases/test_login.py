@@ -65,6 +65,7 @@ class TestLogin001:
             )
 
             assert False
+        self.logger("*************** testing Ended ***************")
 
         # self.lp.clickLogout()
         # 'pytest -s -v --html=Reports\report.html'

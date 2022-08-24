@@ -1,0 +1,32 @@
+06/26/2022 06:56:50 PM: INFO: *************** TestAddCustomer003 ***************  
+06/26/2022 06:57:29 PM: INFO: *************** Login Successful ***************  
+06/26/2022 06:57:29 PM: INFO: *************** Starting Add Customer Test ***************  
+06/26/2022 06:57:36 PM: INFO: *************** Providing Customer Information ***************  
+06/26/2022 06:57:49 PM: INFO: *************** Saving Customer Info *************** 
+06/26/2022 06:57:49 PM: INFO: *************** Add Customer Validation Starts *************** 
+06/26/2022 06:57:52 PM: INFO: *************** Add Customer Test Passed *************** 
+06/26/2022 06:57:52 PM: INFO: *************** Ending Add Customer Test ***************  
+06/26/2022 06:57:56 PM: INFO: *************** TestLogin001 ***************
+06/26/2022 06:57:56 PM: INFO: *************** Verifying HomePage Title ***************
+06/26/2022 06:58:29 PM: ERROR: *************** Home Page Title Test is Failed ***************
+06/26/2022 06:58:34 PM: INFO: *************** TestLogin001 ***************
+06/26/2022 06:58:34 PM: INFO: *************** Verifying LoginPage Title ***************
+06/26/2022 06:58:49 PM: INFO: *************** Login Page Title Test is Passed ***************
+06/26/2022 06:58:52 PM: INFO: *************** TestLogin002DDT ***************
+06/26/2022 06:58:52 PM: INFO: *************** Verifying Login DDT Test ***************
+06/26/2022 06:59:12 PM: INFO: *************** Passed ***************
+06/26/2022 06:59:27 PM: INFO: *************** Passed ***************
+06/26/2022 06:59:39 PM: INFO: *************** Passed ***************
+06/26/2022 06:59:50 PM: INFO: *************** Passed ***************
+06/26/2022 06:59:51 PM: INFO: *************** Login DDT Test Passed ***************
+06/26/2022 06:59:51 PM: INFO: *************** End of Login DDT Test ***************
+06/26/2022 06:59:51 PM: INFO: *************** Completed TestLogin002DDT ***************
+06/26/2022 06:59:54 PM: INFO: *************** TestSearchCustomer004 ***************
+06/26/2022 07:00:09 PM: INFO: *************** Login Successful ***************
+06/26/2022 07:00:12 PM: INFO: *************** Starting Search Customer By Email ***************
+06/26/2022 07:00:12 PM: INFO: *************** Searching Customer By Email ***************
+06/26/2022 07:00:19 PM: INFO: *************** TC_SearchCustomerByEmail_004 Finished ***************
+06/26/2022 07:00:22 PM: INFO: *************** TestSearchCustomer004 ***************
+06/26/2022 07:00:51 PM: INFO: *************** Login Successful ***************
+06/26/2022 07:00:53 PM: INFO: *************** Starting Search Customer By Name ***************
+06/26/2022 07:00:53 PM: INFO: *************** Searching Customer By Name ***************

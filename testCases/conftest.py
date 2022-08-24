@@ -4,14 +4,14 @@ import pytest
 
 @pytest.fixture()
 def setup(browser):
-    if browser == "chrome":
-        driver = webdriver.Chrome()
+    if browser == "Edge":
+        driver = webdriver.Edge()
         print("Launching chrome browser.....")
     elif browser == "firefox":
         driver = webdriver.Firefox()
         print("Launching firefox browser.....")
     else:
-        driver = webdriver.Edge()
+        driver = webdriver.Chrome()
         print("Launching edge browser.....")
     return driver
 

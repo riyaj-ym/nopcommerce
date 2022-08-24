@@ -73,13 +73,13 @@ class TestAddCustomer003:
             self.logger.info(
                 "*************** Add Customer Test Failed *************** "
             )
+            assert False
         self.driver.close()
         self.logger.info("*************** Ending Add Customer Test ***************  ")
 
 
 def random_generator(size=8, chars=string.ascii_lowercase + string.digits):
     return "".join(random.choice(chars) for x in range(size))
-
 
 # "pytest -v -rA --html=L:\nopcommerce\Reports\reportTestAddCustomer003.html L:\nopcommerce\testCases\test_addCustomer.py"
 # 'pytest -v -rA --html=L:\nopcommerce\Reports\reportTestAddCustomer003.html L:\nopcommerce\testCases'

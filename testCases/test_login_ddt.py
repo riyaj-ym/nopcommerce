@@ -4,7 +4,6 @@ from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 from utilities import xlUtils
-import pytest
 
 
 class TestLogin002DDT:
